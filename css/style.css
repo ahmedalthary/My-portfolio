@@ -179,7 +179,6 @@ body.dark-them {
 .navBar .dark-light-mode {
   cursor: pointer;
   font-size: 22px;
-  padding: 17px;
   cursor: pointer;
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
@@ -246,7 +245,7 @@ body.dark-them {
   height: 5px;
   width: 0;
   z-index: -1;
-  background-color: #0069D1;
+  background-color: #0069d1;
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
   -moz-transition: var(--main-transition);
@@ -290,7 +289,7 @@ body.dark-them {
     background-color: var(--bg-color);
   }
   .navBar .dark-light-mode {
-    margin-left: 40px;
+    margin: 3px 0 0 10px;
   }
   .navBar .navBar-collapsing {
     flex-basis: 100%;
@@ -685,7 +684,7 @@ header .scrolling-header.sticky {
   justify-content: center;
   align-items: center;
   width: 87%;
-  gap: 45px;
+  gap: 40px;
   padding-bottom: 65px;
 }
 .work-card .card-img {
@@ -778,6 +777,9 @@ header .scrolling-header.sticky {
   .swiper-slide .work-card {
     gap: 40px;
     align-items: center;
+  }
+  .work-card .card-img {
+    margin-bottom: 10px;
   }
   .card-img img {
     margin: auto;
@@ -1147,7 +1149,7 @@ footer .footer-details > div {
 .brand-bottom span {
   font-size: var(--normal-font-size);
   font-weight: 500;
-  color: #C6D9EC;
+  color: #c6d9ec;
 }
 .footer-details .footer-links {
 }
@@ -1159,7 +1161,7 @@ footer .footer-details > div {
   position: relative;
   display: flex;
   gap: 7px;
-  color: #C6D9EC;
+  color: #c6d9ec;
   width: 80%;
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
@@ -1178,7 +1180,7 @@ footer .footer-details > div {
 }
 .footer-links ul li:not(:last-child)::before {
   width: 100%;
-  background-color: #C6D9EC;
+  background-color: #c6d9ec;
 }
 .footer-links ul li:not(:last-child)::after {
   width: 0;
@@ -1227,7 +1229,7 @@ footer .footer-details > div {
   font-size: 22px;
 }
 .footer-social ul li {
-  color: #C6D9EC;
+  color: #c6d9ec;
   transition: var(--main-transition);
   -webkit-transition: var(--main-transition);
   -moz-transition: var(--main-transition);
@@ -1239,7 +1241,7 @@ footer .footer-details > div {
 }
 footer .footer-copyRight {
   text-align: center;
-  color: #C6D9EC;
+  color: #c6d9ec;
   margin-top: 50px;
   padding: 30px 0;
   border-top: 1px solid var(--second-element-color);
