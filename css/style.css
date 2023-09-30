@@ -521,7 +521,8 @@ header .scrolling-header.sticky {
     gap: 10px;
   }
   .bottom-info a {
-    padding: 17px 15px;
+    padding: 17px 12px;
+    gap: 6px;
   }
   .home-info .scroll-down {
     display: none;
