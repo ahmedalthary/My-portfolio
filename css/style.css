@@ -1110,7 +1110,8 @@ header .scrolling-header.sticky {
   }
   .contact-form .form-validation-msg {
     width: calc(100% - 8px);
-    left: -6px;
+    left: -6.5px;
+    height: 85px;
   }
 }
 /* ================ Contact End ================ */
